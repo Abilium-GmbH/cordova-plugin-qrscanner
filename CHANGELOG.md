@@ -1,3 +1,15 @@
+<a name="3.0.3"></a>
+## [3.0.3](https://github.com/bitpay/cordova-plugin-qrscanner/compare/2.6.0...3.0.3) (2024-04-23)
+
+
+### Bug Fixes
+
+* **QRScanner.java:** Compatibility with Android 10 ([fb037bc](https://github.com/bitpay/cordova-plugin-qrscanner/commit/fb037bc))
+* **syntax:** Swift 5 ([692c126](https://github.com/bitpay/cordova-plugin-qrscanner/commit/692c126))
+* **tag:** removes invalid tag UseSwiftLanguageVersion ([3c368fe](https://github.com/bitpay/cordova-plugin-qrscanner/commit/3c368fe))
+
+
+
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/bitpay/cordova-plugin-qrscanner/compare/2.6.0...3.0.2) (2024-04-23)
 
