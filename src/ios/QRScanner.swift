@@ -159,7 +159,9 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
                 metaOutput!.metadataObjectTypes = [AVMetadataObject.ObjectType.qr]
                 captureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession!)
                 cameraView.addPreviewLayer(captureVideoPreviewLayer)
-                captureSession!.startRunning()
+                backgroundThread(delay: 0, background: {
+                    self.captureSession!.startRunning()
+                })
             }
             return true
         } catch CaptureError.backCameraUnavailable {
