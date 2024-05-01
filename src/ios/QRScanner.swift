@@ -131,7 +131,6 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
         }
         do {
             if (captureSession?.isRunning != true){
-                cameraView.backgroundColor = UIColor.clear
                 self.webView!.isOpaque = false
                 self.webView!.backgroundColor = UIColor.clear
                 self.webView!.scrollView.backgroundColor = UIColor.clear
